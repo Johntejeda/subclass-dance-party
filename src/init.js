@@ -1,4 +1,4 @@
-<script>
+
 (document).ready(function(){
         window.dancers = [];
         $(".addDancerButton").on("click", function(event){
@@ -14,7 +14,3 @@
           $('body').append(dancer.$node);
         });
       });
-      </script>
-
-        </body>
-      </html>
